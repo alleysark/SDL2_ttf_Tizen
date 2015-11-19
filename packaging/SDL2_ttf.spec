@@ -60,6 +60,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pkgconfig/*.pc
 
 %changelog
+* Fri Nov  6 2015 Alleysark <alleysark@gmail.com>
+- add build requires for tizen gbs build
 * Wed Jan 19 2000 Sam Lantinga 
 - converted to get package information from configure
 * Sun Jan 16 2000 Hakan Tandogan <hakan@iconsult.com>
